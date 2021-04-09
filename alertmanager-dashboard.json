@@ -19,6 +19,20 @@
   "links": [],
   "panels": [
     {
+      "collapsed": false,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 10,
+      "panels": [],
+      "title": "ALERTS SEVERITY & TYPE",
+      "type": "row"
+    },
+    {
       "datasource": "AlertManager",
       "fieldConfig": {
         "defaults": {
@@ -41,10 +55,10 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 8,
-        "w": 6,
+        "h": 10,
+        "w": 8,
         "x": 0,
-        "y": 0
+        "y": 1
       },
       "id": 2,
       "options": {
@@ -54,7 +68,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "mean"
+            "last"
           ],
           "fields": "",
           "values": false
@@ -70,7 +84,7 @@
           "legendFormat": "",
           "refId": "A",
           "target": "Query",
-          "type": "timeserie"
+          "type": "single"
         }
       ],
       "timeFrom": null,
@@ -99,10 +113,10 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 8,
-        "w": 6,
-        "x": 6,
-        "y": 0
+        "h": 10,
+        "w": 4,
+        "x": 8,
+        "y": 1
       },
       "id": 3,
       "options": {
@@ -112,7 +126,7 @@
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "mean"
+            "last"
           ],
           "fields": "",
           "values": false
@@ -128,7 +142,7 @@
           "legendFormat": "",
           "refId": "A",
           "target": "Query",
-          "type": "timeserie"
+          "type": "single"
         }
       ],
       "timeFrom": null,
@@ -161,10 +175,10 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 8,
-        "w": 6,
+        "h": 10,
+        "w": 4,
         "x": 12,
-        "y": 0
+        "y": 1
       },
       "id": 6,
       "options": {
@@ -190,7 +204,7 @@
           "legendFormat": "",
           "refId": "A",
           "target": "Query",
-          "type": "timeserie"
+          "type": "single"
         }
       ],
       "timeFrom": null,
@@ -223,10 +237,10 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 4,
-        "w": 6,
-        "x": 18,
-        "y": 0
+        "h": 10,
+        "w": 4,
+        "x": 16,
+        "y": 1
       },
       "id": 5,
       "options": {
@@ -285,10 +299,10 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 4,
-        "w": 6,
-        "x": 18,
-        "y": 4
+        "h": 10,
+        "w": 4,
+        "x": 20,
+        "y": 1
       },
       "id": 8,
       "options": {
@@ -321,6 +335,20 @@
       "timeShift": null,
       "title": "Alerts with State Down",
       "type": "stat"
+    },
+    {
+      "collapsed": false,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 11
+      },
+      "id": 12,
+      "panels": [],
+      "title": "ALERTS LIST",
+      "type": "row"
     },
     {
       "datasource": "AlertManager",
@@ -465,7 +493,7 @@
         "h": 15,
         "w": 24,
         "x": 0,
-        "y": 8
+        "y": 12
       },
       "id": 4,
       "options": {
@@ -486,7 +514,7 @@
       ],
       "timeFrom": null,
       "timeShift": null,
-      "title": "LIst of Alerts",
+      "title": "",
       "transformations": [
         {
           "id": "organize",
@@ -536,5 +564,5 @@
   "timezone": "",
   "title": "Dashboard",
   "uid": "w8SpB9_Gk",
-  "version": 13
+  "version": 3
 }
