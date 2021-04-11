@@ -493,14 +493,10 @@
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "#EAB839",
-                "value": 1
               }
             ]
           },
-          "unit": "dthms"
+          "unit": "dateTimeAsIso"
         },
         "overrides": [
           {
@@ -692,5 +688,5 @@
   "timezone": "",
   "title": "Dashboard",
   "uid": "w8SpB9_Gk",
-  "version": 3
+  "version": 9
 }
