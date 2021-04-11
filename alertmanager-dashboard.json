@@ -217,16 +217,7 @@
       "fieldConfig": {
         "defaults": {
           "custom": {},
-          "mappings": [
-            {
-              "from": "",
-              "id": 0,
-              "text": "Masters Ok",
-              "to": "",
-              "type": 1,
-              "value": "0"
-            }
-          ],
+          "mappings": [],
           "max": 3,
           "min": 0,
           "thresholds": {
@@ -701,5 +692,5 @@
   "timezone": "",
   "title": "Dashboard",
   "uid": "w8SpB9_Gk",
-  "version": 2
+  "version": 3
 }
